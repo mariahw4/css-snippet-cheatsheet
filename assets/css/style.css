@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue; 
+}
+
+body {
+    background-color: gray;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin: 16px;
+}
+
+.header-description {
+    margin: auto;
+    width: 70%;
+}
+
+h1 {
+   padding: 16px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-box {
+    border: 1px dashed black;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-box:hover {
+    box-shadow: 0 0 20px blue;
+}
+.card-header {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border: 2px solid darkgreen;
+    background-color: darksalmon;
+}
+.card-descrip {
+    padding: 5px;
+}
+
+.card-code {
+    background-image: linear-gradient(to bottom right, orange, darkgoldenrod);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    height: auto;
+    user-select: all;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    color: red;
+}
+
+@media screen and (max-width: 992px) {
+    .card-box {
+        border: 1px dashed black;
+        width: 45%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-box {
+        border: 1px dashed black;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
